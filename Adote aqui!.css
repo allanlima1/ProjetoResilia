@@ -1,0 +1,80 @@
+*{padding: 0%;
+    margin: 0%;}
+
+    body{
+        display: flex;
+        flex-direction: column;
+        font-family: sans-serif;
+        font-size: 15px;
+    }
+    #primeiradiv{
+        display: flex;
+        justify-content: space-between;
+        background-color: #2F2E2E;
+    
+    }
+    #logocãoegato2{
+        height: 125px;
+    }
+    button{
+        background-color:#2F2E2E;
+        width: 200px;
+        height: 50px;
+        color: #FFCB05;
+        transition-duration: 0.8s;
+        border-radius: 10px;
+        border: 2px solid #FFCB05;
+        margin-left: -320px;
+    
+        }
+    button:hover{
+        background-color:white;
+    }
+    #botao{
+        width: 50%;
+        justify-content: space-around;
+        display:flex;
+        align-items: center;
+    }
+    
+    #logocãoegato{
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    
+    #segundadiv{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+        background-color:white;
+    }
+    .catdog{
+        margin: -50px;
+        margin-top: -60px;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        border: 2px solid #2F2E2E;
+    }
+    .cachorro{
+        width: 200px;
+        height: 200px;
+        padding: 100px;
+        justify-content: center;
+    }
+    footer{
+        background-color: rgb(47, 46, 46);
+        color:white;
+        justify-content: center;
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    @media (max-width: 700px){
+    
+        footer{display: none;}
+        #primeiradiv{display: none;}
